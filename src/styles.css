@@ -6,12 +6,24 @@ body {
   font-family: sans-serif;
 }
 
-h1 {
-  margin-bottom: 10px;
-}
-
-canvas {
+#game {
   display: block;
+  max-width: 100%;
+  height: auto;
   background: #12131a;
   border-radius: 12px;
+}
+
+.bg { fill: #0b0c10; }
+.inside { fill: #161826; }
+
+.grid line {
+  stroke: rgba(255,255,255,0.08);
+  stroke-width: 1;
+}
+
+.border {
+  fill: none;
+  stroke: #e6e6f0;
+  stroke-width: 4;
 }
