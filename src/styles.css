@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 20px;
+  background: #0b0c10;
+  color: #e9e9f2;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+canvas {
+  display: block;
+  background: #12131a;
+  border-radius: 12px;
+}
