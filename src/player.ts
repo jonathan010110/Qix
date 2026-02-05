@@ -336,7 +336,7 @@ export class Player {
         const finalPolyPointsStr = finalPolygon.map(p => `${p.x},${p.y}`).join(" ");
 
         poly.setAttribute("points", finalPolyPointsStr);
-        poly.setAttribute("fill", "#cbd5e0");
+        poly.setAttribute("fill", "#ffffff");
         poly.setAttribute("fill-rule", "evenodd");
         poly.setAttribute("stroke", "#4fd1c5");
         poly.setAttribute("stroke-width", "1");
