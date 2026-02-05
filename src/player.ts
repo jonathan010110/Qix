@@ -150,7 +150,7 @@ export class Player {
     }
     const start = unique[minIdx]!;
 
-    // Sort by polar angle with respect to start point
+    // Sort by polar angle with respect to start pointX
     const sorted = unique.filter((_, i) => i !== minIdx).sort((a, b) => {
       const angleA = Math.atan2(a.y - start!.y, a.x - start!.x);
       const angleB = Math.atan2(b.y - start!.y, b.x - start!.x);
